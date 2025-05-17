@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Care - Monitoramento Inteligente para Pets</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #001f4d;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #002f6c;
+    }
+    .navbar-brand, .nav-link {
+      color: #ffffff !important;
+    }
+    .navbar-brand img {
+      height: 60px;
+      margin-right: 10px;
+    }
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1574158622682-e40e69881006') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 3.5rem;
+      color: #00bfff;
+    }
+    .hero-section p {
+      font-size: 1.2rem;
+    }
+    .btn-primary {
+      background-color: #001a33;
+      border: none;
+    }
+    .feature-icon {
+      font-size: 3rem;
+      color: #00bfff;
+    }
+    .about-section img {
+      max-width: 100%;
+    }
+    footer {
+      background-color: #001a33;
+      padding: 20px 0;
+      color: #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="/imagens/LogosemFundo.png" alt="Logo Pet Care">
+        <span>Pet Care</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section">
+    <div class="container">
+      <img src="/imagens/LogosemFundo.png" alt="Logo Pet Care" class="mb-4" width="280">
+      <h1>Monitoramento Inteligente para Pets</h1>
+      <p>Atendimento veterinário mais rápido, integrado e eficaz.</p>
+      <a href="#funcionalidades" class="btn btn-primary btn-lg mt-3">Conheça as Funcionalidades</a>
+    </div>
+  </header>
+
+  <section class="container py-5 text-center">
+    <h2 class="text-info mb-4">Nosso Propósito</h2>
+    <p class="lead">
+      Na Pet Care, acreditamos que todo animal merece ser tratado com amor, cuidado e respeito.
+      Desenvolvemos uma solução que une tecnologia e empatia para melhorar a vida dos pets e de seus tutores.
+      Mais do que um app, somos uma ponte entre quem cuida e quem ama.
+    </p>
+  </section>
+
+  <section id="sobre" class="container py-5 about-section">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2 class="text-info">Sobre o Projeto</h2>
+        <p>
+          Criamos este negócio para oferecer um atendimento veterinário mais rápido e eficiente.
+          Muitas vezes, tutores enfrentam dificuldades para encontrar veterinários disponíveis e identificar a gravidade de um problema.
+          Nosso app resolve isso ao permitir o monitoramento da saúde do pet, agilizar consultas com profissionais próximos e oferecer uma pré-triagem.
+          Assim, garantimos mais qualidade de vida para os animais e mais tranquilidade para seus donos.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16" alt="Pet e tecnologia">
+      </div>
+    </div>
+  </section>
+
+  <section id="funcionalidades" class="container py-5">
+    <h2 class="text-center text-info mb-5">Funcionalidades do App</h2>
+    <div class="row g-4">
+      <div class="col-md-4 text-center">
+        <div class="feature-icon mb-3"><i class="bi bi-heart-pulse"></i></div>
+        <h5>Medição de Saúde</h5>
+        <p>Batimentos cardíacos e temperatura monitorados em tempo real.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="feature-icon mb-3"><i class="bi bi-geo-alt"></i></div>
+        <h5>Rastreamento em Tempo Real</h5>
+        <p>Localize seu pet com precisão a qualquer momento.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="feature-icon mb-3"><i class="bi bi-calendar-check"></i></div>
+        <h5>Agendamento Rápido</h5>
+        <p>Consultas com veterinários próximos em poucos cliques.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="feature-icon mb-3"><i class="bi bi-clipboard2-pulse"></i></div>
+        <h5>Pré-Triagem Digital</h5>
+        <p>Entenda a gravidade do problema antes da consulta.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="feature-icon mb-3"><i class="bi bi-file-medical"></i></div>
+        <h5>Carteira de Saúde</h5>
+        <p>Histórico de vacinas, exames e atendimentos ao alcance.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="feature-icon mb-3"><i class="bi bi-shop"></i></div>
+        <h5>Integração com Pet Shops</h5>
+        <p>Conecte-se com profissionais e estabelecimentos da sua região.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pet Care. Todos os direitos reservados.</p>
+    <p class="mt-3">
+      Pet Care – Conectando amor e cuidado à saúde dos seus pets.
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
